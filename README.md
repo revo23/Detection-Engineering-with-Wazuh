@@ -12,6 +12,8 @@
 
 1. Install Wazuh on Ubuntu VM
 
+3. 
+
 
 **References**
 
