@@ -22,7 +22,7 @@ Wazuh is a security platform that provides unified XDR and SIEM protection for e
 
 <img width="1197" height="671" alt="image" src="https://github.com/user-attachments/assets/fb86aed5-d585-4688-93e5-3a65f1435619" />
 
-3. "hostname -I"
+3. 'hostname -I'
 
 
 **References**
