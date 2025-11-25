@@ -5,6 +5,8 @@
 
 
 **Overview**
+Wazuh is a security platform that provides unified XDR and SIEM protection for endpoints and cloud workloads. The solution is composed of a single universal agent and three central components: the Wazuh server, the Wazuh indexer, and the Wazuh dashboard.  
+
 
 **High Level Concept (HLC)**
 
