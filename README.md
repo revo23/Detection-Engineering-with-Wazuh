@@ -39,6 +39,7 @@ sudo systemctl start wazuh-agent
 ```
 6. Check agent is running
 <img width="1176" height="570" alt="image" src="https://github.com/user-attachments/assets/75d2f7e1-7146-4c72-a217-5011a0740636" />  
+<img width="1605" height="666" alt="image" src="https://github.com/user-attachments/assets/1d814de1-c025-4b4f-92e8-1a534ac88fd2" />  
 
 
 **References**
