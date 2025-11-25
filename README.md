@@ -1,5 +1,9 @@
 # Detection-Engineering-with-Wazuh
 
+
+<img width="1080" height="690" alt="image" src="https://github.com/user-attachments/assets/417aa321-b75e-4d3f-924b-96decb020096" />
+
+
 **Overview**
 
 **High Level Concept (HLC)**
