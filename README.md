@@ -4,7 +4,7 @@
 <img width="1080" height="690" alt="image" src="https://github.com/user-attachments/assets/417aa321-b75e-4d3f-924b-96decb020096" />
 
 
-**Overview**
+**Overview**  
 Wazuh is a security platform that provides unified XDR and SIEM protection for endpoints and cloud workloads. The solution is composed of a single universal agent and three central components: the Wazuh server, the Wazuh indexer, and the Wazuh dashboard.  
 
 
