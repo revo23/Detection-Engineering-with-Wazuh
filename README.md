@@ -16,9 +16,13 @@ Wazuh is a security platform that provides unified XDR and SIEM protection for e
 
 **Steps**
 
-1. Install Wazuh on Ubuntu VM
+1. Download and create Ubuntu VM on VMware Workstation  
 
-3. 
+2. Install Wazuh central components on Ubuntu VM  
+
+<img width="1197" height="671" alt="image" src="https://github.com/user-attachments/assets/fb86aed5-d585-4688-93e5-3a65f1435619" />
+
+3. "hostname -I"
 
 
 **References**
