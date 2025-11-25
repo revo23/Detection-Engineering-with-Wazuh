@@ -28,8 +28,8 @@ Wazuh is a security platform that provides unified XDR and SIEM protection for e
 
 <img width="1637" height="777" alt="image" src="https://github.com/user-attachments/assets/43142925-93d7-4bfe-940b-4a1df184aab7" />  
 
-5. Clone current Ubuntu serverVM for new Ubuntu agent VM (wazuh-agent and wazuh-manager cannot coexist on the same machine)
-
+5. Clone current Ubuntu serverVM for new Ubuntu agent VM (wazuh-agent and wazuh-manager cannot coexist on the same machine)  
+Install and start wazuh-agent  
 ```wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.14.1-1_amd64.deb && sudo WAZUH_MANAGER='192.168.235.139' WAZUH_AGENT_NAME='linux' dpkg -i ./wazuh-agent_4.14.1-1_amd64.deb
     
     sudo systemctl daemon-reload
