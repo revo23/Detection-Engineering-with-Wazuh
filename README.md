@@ -25,3 +25,6 @@
 https://www.youtube.com/watch?v=i68atPbB8uQ  
 https://wazuh.com/blog/detecting-deerstealer-malware-with-wazuh/  README -->
 
+https://documentation.wazuh.com/current/installation-guide/index.html  
+
+https://documentation.wazuh.com/current/quickstart.html  
