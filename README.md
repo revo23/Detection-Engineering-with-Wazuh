@@ -26,7 +26,7 @@ Wazuh is a security platform that provides unified XDR and SIEM protection for e
 
 4. Deploy new agent
 
-<img width="1624" height="775" alt="image" src="https://github.com/user-attachments/assets/377171ad-1421-48ab-b4c1-3cb06beca4a7" />  
+<img width="1637" height="777" alt="image" src="https://github.com/user-attachments/assets/43142925-93d7-4bfe-940b-4a1df184aab7" />  
 
 
 
