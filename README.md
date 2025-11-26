@@ -49,7 +49,13 @@ sudo systemctl start wazuh-agent
 
 <img width="1253" height="574" alt="image" src="https://github.com/user-attachments/assets/29307de1-88c4-4f72-94d6-a62636b698d0" />  
 
-8. 
+8. Verify Sysmon logs being captured (test me opening notepad)
+Sysmon provides detailed information about process creations, network connections, and changes to file creation time.
+
+<img width="1526" height="954" alt="image" src="https://github.com/user-attachments/assets/00d9ed13-d257-4362-ad52-4271a14a2b4f" />  
+
+10. 
+
 
 
 
