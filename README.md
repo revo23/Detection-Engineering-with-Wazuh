@@ -43,6 +43,11 @@ sudo systemctl start wazuh-agent
 
 <img width="1605" height="666" alt="image" src="https://github.com/user-attachments/assets/1d814de1-c025-4b4f-92e8-1a534ac88fd2" />  
 
+7. Install Windows agent on PC  
+
+<img width="1253" height="574" alt="image" src="https://github.com/user-attachments/assets/29307de1-88c4-4f72-94d6-a62636b698d0" />  
+
+
 
 
 
@@ -50,8 +55,12 @@ sudo systemctl start wazuh-agent
 
 <!-- [This text will not appear in the rendered] https://www.youtube.com/watch?v=nSOqU1iX5oQ  
 https://www.youtube.com/watch?v=i68atPbB8uQ  
-https://wazuh.com/blog/detecting-deerstealer-malware-with-wazuh/  README -->
+  README -->
 
 https://documentation.wazuh.com/current/installation-guide/index.html  
 
 https://documentation.wazuh.com/current/quickstart.html  
+
+https://github.com/redcanaryco/invoke-atomicredteam  
+
+https://wazuh.com/blog/detecting-deerstealer-malware-with-wazuh/  
