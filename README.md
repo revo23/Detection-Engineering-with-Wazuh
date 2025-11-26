@@ -63,6 +63,12 @@ Sysmon provides detailed information about process creations, network connection
   </localfile>
 ```
 
+10. Server management > rules > add new rules file > create rule to detect Cipher.exe usage
+Cipher.exe is a command-line tool (included with Windows 2000) that you can use to manage encrypted data by using the Encrypting File System (EFS). Some ransomware such a Vohuk use this LotL tool to encrypt victims.
+
+<img width="1319" height="514" alt="image" src="https://github.com/user-attachments/assets/de60eb9e-2a62-4155-9743-e0a3cb867329" />
+
+12. 
 
 
 **References**
@@ -79,3 +85,7 @@ https://documentation.wazuh.com/current/quickstart.html
 https://github.com/redcanaryco/invoke-atomicredteam  
 
 https://wazuh.com/blog/detecting-deerstealer-malware-with-wazuh/  
+
+https://documentation.wazuh.com/current/user-manual/ruleset/rules/custom.html  
+
+https://support.microsoft.com/en-us/topic/cipher-exe-security-tool-for-the-encrypting-file-system-56c85edd-85cf-ac07-f2f7-ca2d35dab7e4  
