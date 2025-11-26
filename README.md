@@ -9,7 +9,7 @@ Wazuh is a security platform that provides unified XDR and SIEM protection for e
 
 - Install manager and agents  
 - Invoke AtomicRedTeam MITRE ATT&CK techniques and view logs  
-- Detecting and removing malware using VirusTotal integration  
+- Detecting and removing malware automatically using VirusTotal integration  
 - Create custom rules for DeerStealer infostealer
 
 **Solution**
