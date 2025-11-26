@@ -1,7 +1,7 @@
 # Detection-Engineering-with-Wazuh
 
 
-<img width="1080" height="690" alt="image" src="https://github.com/user-attachments/assets/417aa321-b75e-4d3f-924b-96decb020096" />
+<img width="1600" height="830" alt="image" src="https://github.com/user-attachments/assets/63177460-509b-49f9-9a5e-424540b7f8ae" />  
 
 
 **Overview**  
