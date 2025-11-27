@@ -175,10 +175,49 @@ Cipher.exe is a command-line tool (included with Windows 2000) that you can use 
 16. Next, we move to do a PoC for Detecting and removing malware using VirusTotal integration  
 Use the Wazuh File Integrity Monitoring (FIM) module to monitor a directory for changes and the VirusTotal API to scan the files in the directory
 
-17. Configure Wazuh to monitor near real-time changes in the /root directory of the Ubuntu endpoint agent
+17. Configure Wazuh to monitor near real-time changes in the Downloads directory of the Ubuntu endpoint agent
     - Add an entry within the <syscheck> block to configure a directory to be monitored in near real-time > Downloads folder
-    - 
+    - Install jq (a utility that processes JSON input )
+    - Create ```/var/ossec/active-response/bin/remove-threat.sh``` script
+```
+#!/bin/bash
 
+LOCAL=`dirname $0`;
+cd $LOCAL
+cd ../
+
+PWD=`pwd`
+
+read INPUT_JSON
+FILENAME=$(echo $INPUT_JSON | jq -r .parameters.alert.data.virustotal.source.file)
+COMMAND=$(echo $INPUT_JSON | jq -r .command)
+LOG_FILE="${PWD}/../logs/active-responses.log"
+
+#------------------------ Analyze command -------------------------#
+if [ ${COMMAND} = "add" ]
+then
+ # Send control message to execd
+ printf '{"version":1,"origin":{"name":"remove-threat","module":"active-response"},"command":"check_keys", "parameters":{"keys":[]}}\n'
+
+ read RESPONSE
+ COMMAND2=$(echo $RESPONSE | jq -r .command)
+ if [ ${COMMAND2} != "continue" ]
+ then
+  echo "`date '+%Y/%m/%d %H:%M:%S'` $0: $INPUT_JSON Remove threat active response aborted" >> ${LOG_FILE}
+  exit 0;
+ fi
+fi
+
+# Removing file
+rm -f $FILENAME
+if [ $? -eq 0 ]; then
+ echo "`date '+%Y/%m/%d %H:%M:%S'` $0: $INPUT_JSON Successfully removed threat" >> ${LOG_FILE}
+else
+ echo "`date '+%Y/%m/%d %H:%M:%S'` $0: $INPUT_JSON Error removing threat" >> ${LOG_FILE}
+fi
+
+exit 0;
+``` 
 <img width="748" height="485" alt="image" src="https://github.com/user-attachments/assets/91c62727-1288-428a-b644-01fdcf83a7f5" />
 
 
