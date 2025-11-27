@@ -222,6 +222,12 @@ fi
 
 exit 0;
 ``` 
+18. Add rules to the /var/ossec/etc/rules/local_rules.xml file on the Wazuh server. This rule alert about changes in the Downloads directory that are detected by FIM scans:  
+
+<img width="1221" height="678" alt="image" src="https://github.com/user-attachments/assets/874728a0-4f11-44f6-803d-063895eebc10" />  
+
+19. Add the following configuration to the Wazuh server /var/ossec/etc/ossec.conf file to enable the Virustotal integration
+
 
 
 **References**
