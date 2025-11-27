@@ -181,7 +181,7 @@ Use the Wazuh File Integrity Monitoring (FIM) module to monitor a directory for 
 <img width="760" height="130" alt="image" src="https://github.com/user-attachments/assets/2585653d-8be3-4877-ba9d-c0f694c7bc29" />  
 
     - Install jq (a utility that processes JSON input )
-    - Create ```/var/ossec/active-response/bin/remove-threat.sh``` script
+    - Create /var/ossec/active-response/bin/remove-threat.sh script
     - restart wazuh-agent
 
 ```
