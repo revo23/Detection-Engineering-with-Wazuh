@@ -5,7 +5,7 @@
 
 
 **Overview**  
-Wazuh is a security platform that provides unified XDR and EDR protection for endpoints and cloud workloads. The solution is composed of a single universal agent and three central components: the Wazuh server, the Wazuh indexer, and the Wazuh dashboard.  
+Wazuh is a security platform that provides unified XDR/EDR protection for endpoints and cloud workloads. The solution is composed of a single universal agent and three central components: the Wazuh server, the Wazuh indexer, and the Wazuh dashboard.  
 
 - Install manager and agents  
 - Create custom rules for cipher.exe (ransomware LotL) and DeerStealer infostealer  
