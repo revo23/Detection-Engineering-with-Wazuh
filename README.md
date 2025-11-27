@@ -66,10 +66,17 @@ Sysmon provides detailed information about process creations, network connection
 10. Server management > rules > add new rules file > create rule to detect Cipher.exe usage  
 Cipher.exe is a command-line tool (included with Windows 2000) that you can use to manage encrypted data by using the Encrypting File System (EFS). Some ransomware such a Vohuk use this LotL tool to encrypt victims.
 
-<img width="1277" height="356" alt="image" src="https://github.com/user-attachments/assets/02208220-8820-48da-990c-870ccfd6d59c" />  
+<img width="1301" height="446" alt="image" src="https://github.com/user-attachments/assets/4e37c5b3-26ce-4ede-affc-e19df1d8429a" />
+
+11. Run ```cipher.exe``` in Powershell, rule triggers (eventid = 10)
+
+<img width="1186" height="489" alt="image" src="https://github.com/user-attachments/assets/1e65913e-0464-4752-8914-39cbd05d4c24" />  
+
+<img width="718" height="515" alt="image" src="https://github.com/user-attachments/assets/0f4a38c3-524d-4a93-9678-6e07c28da9ca" />  
+
+<img width="1329" height="510" alt="image" src="https://github.com/user-attachments/assets/1a9679d9-0a0c-4532-9a08-57688e0886ed" />  
 
 12. 
-
 
 **References**
 
