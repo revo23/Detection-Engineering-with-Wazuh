@@ -76,7 +76,7 @@ Cipher.exe is a command-line tool (included with Windows 2000) that you can use 
 
 <img width="1329" height="510" alt="image" src="https://github.com/user-attachments/assets/1a9679d9-0a0c-4532-9a08-57688e0886ed" />  
 
-12. Add DeerStealer to jenson.xml rules file
+12. Add DeerStealer custom rules to jenson.xml rules file
 
 ```
 <group name="deerstealer, stealer-malware,">
