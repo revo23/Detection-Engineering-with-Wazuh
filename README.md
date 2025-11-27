@@ -172,7 +172,14 @@ Cipher.exe is a command-line tool (included with Windows 2000) that you can use 
 
 <img width="1324" height="503" alt="image" src="https://github.com/user-attachments/assets/292c067b-5810-4501-8354-f3c346832b83" />  
 
-16. 
+16. Next, we move to do a PoC for Detecting and removing malware using VirusTotal integration  
+Use the Wazuh File Integrity Monitoring (FIM) module to monitor a directory for changes and the VirusTotal API to scan the files in the directory
+
+17. Configure Wazuh to monitor near real-time changes in the /root directory of the Ubuntu endpoint agent
+    - Add an entry within the <syscheck> block to configure a directory to be monitored in near real-time > Downloads folder
+    - 
+
+<img width="748" height="485" alt="image" src="https://github.com/user-attachments/assets/91c62727-1288-428a-b644-01fdcf83a7f5" />
 
 
 **References**
@@ -193,3 +200,5 @@ https://wazuh.com/blog/detecting-deerstealer-malware-with-wazuh/
 https://documentation.wazuh.com/current/user-manual/ruleset/rules/custom.html  
 
 https://support.microsoft.com/en-us/topic/cipher-exe-security-tool-for-the-encrypting-file-system-56c85edd-85cf-ac07-f2f7-ca2d35dab7e4  
+
+https://documentation.wazuh.com/current/proof-of-concept-guide/detect-remove-malware-virustotal.html  
