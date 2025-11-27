@@ -180,7 +180,7 @@ Use the Wazuh File Integrity Monitoring (FIM) module to monitor a directory for 
     - Install jq (a utility that processes JSON input )
     - Create /var/ossec/active-response/bin/remove-threat.sh script
     - restart wazuh-agent
-    - create a test file in that Downloads folder to see that it gets recorded 
+    - create a test file anything.txt in that Downloads folder to see that it gets recorded 
 <img width="760" height="130" alt="image" src="https://github.com/user-attachments/assets/2585653d-8be3-4877-ba9d-c0f694c7bc29" />  
 <img width="1332" height="570" alt="image" src="https://github.com/user-attachments/assets/56820965-ca5c-400a-a0d7-2ab4442aac7a" />  
 
@@ -229,7 +229,34 @@ exit 0;
 <img width="1221" height="678" alt="image" src="https://github.com/user-attachments/assets/874728a0-4f11-44f6-803d-063895eebc10" />  
 
 19. Add the following configuration to the Wazuh server /var/ossec/etc/ossec.conf file to enable the Virustotal integration
+```
+<ossec_config>
+  <integration>
+    <name>virustotal</name>
+    <api_key>***my_api_key***</api_key> 
+    <rule_id>100200,100201</rule_id>
+    <alert_format>json</alert_format>
+  </integration>
+</ossec_config>
 
+<ossec_config>
+  <command>
+    <name>remove-threat</name>
+    <executable>remove-threat.sh</executable>
+    <timeout_allowed>no</timeout_allowed>
+  </command>
+
+  <active-response>
+    <disabled>no</disabled>
+    <command>remove-threat</command>
+    <location>local</location>
+    <rules_id>87105</rules_id>
+  </active-response>
+</ossec_config>
+
+```
+20. EiCAR test files get active responsed and deleted  
+<img width="1376" height="747" alt="image" src="https://github.com/user-attachments/assets/dd9df3bd-b091-4886-a083-4480626c3eaa" />
 
 
 **References**
