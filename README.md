@@ -177,9 +177,7 @@ Use the Wazuh File Integrity Monitoring (FIM) module to monitor a directory for 
 
 17. Configure Wazuh to monitor near real-time changes in the Downloads directory of the Ubuntu endpoint agent
     - Add an entry within the <syscheck> block to configure a directory to be monitored in near real-time > Downloads folder
-
-<img width="760" height="130" alt="image" src="https://github.com/user-attachments/assets/2585653d-8be3-4877-ba9d-c0f694c7bc29" />  
-
+<img width="760" height="130" alt="image" src="https://github.com/user-attachments/assets/2585653d-8be3-4877-ba9d-c0f694c7bc29" />
     - Install jq (a utility that processes JSON input )
     - Create /var/ossec/active-response/bin/remove-threat.sh script
     - restart wazuh-agent
