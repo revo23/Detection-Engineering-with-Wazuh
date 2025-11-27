@@ -179,8 +179,10 @@ Use the Wazuh File Integrity Monitoring (FIM) module to monitor a directory for 
     - Add an entry within the <syscheck> block to configure a directory to be monitored in near real-time > Downloads folder
     - Install jq (a utility that processes JSON input )
     - Create /var/ossec/active-response/bin/remove-threat.sh script
-    - restart wazuh-agent  
+    - restart wazuh-agent
+    - create a test file in that Downloads folder to see that it gets recorded 
 <img width="760" height="130" alt="image" src="https://github.com/user-attachments/assets/2585653d-8be3-4877-ba9d-c0f694c7bc29" />  
+<img width="1332" height="570" alt="image" src="https://github.com/user-attachments/assets/56820965-ca5c-400a-a0d7-2ab4442aac7a" />  
 
 
 ```
