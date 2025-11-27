@@ -183,6 +183,7 @@ Use the Wazuh File Integrity Monitoring (FIM) module to monitor a directory for 
     - Install jq (a utility that processes JSON input )
     - Create ```/var/ossec/active-response/bin/remove-threat.sh``` script
     - restart wazuh-agent
+
 ```
 #!/bin/bash
 
