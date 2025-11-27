@@ -256,7 +256,7 @@ exit 0;
 </ossec_config>
 
 ```
-20. EiCAR test files get active responsed and deleted  
+20. EICAR test files get active responsed and deleted!  
 <img width="1376" height="747" alt="image" src="https://github.com/user-attachments/assets/dd9df3bd-b091-4886-a083-4480626c3eaa" />
 <img width="1500" height="829" alt="image" src="https://github.com/user-attachments/assets/a39e1605-8f88-43dd-9010-93d836160b8b" />
 
