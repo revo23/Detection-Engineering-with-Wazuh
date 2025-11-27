@@ -9,7 +9,7 @@ Wazuh is a security platform that provides unified XDR and EDR protection for en
 
 - Install manager and agents  
 - Create custom rules for DeerStealer infostealer  
-- Invoke AtomicRedTeam MITRE ATT&CK techniques and view mapped logs  
+- Invoke AtomicRedTeam MITRE ATT&CK techniques and view alerts  
 - Detecting and removing malware automatically using VirusTotal integration  
 
 **Solution**
@@ -173,7 +173,8 @@ Cipher.exe is a command-line tool (included with Windows 2000) that you can use 
 14. Install powershell on ubuntu wazuh-manager and invoke atomic redteam, run T1003.008 (OS Credential Dumping: /etc/passwd and /etc/shadow), T1003.007 (OS Credential Dumping: Proc Filesystem)  
 
 15. Atomicredteam seen trying to pull /etc/pass and /etc/shadow, as expected and running successful sudo session, elevating privileges to root
-<img width="1324" height="503" alt="image" src="https://github.com/user-attachments/assets/04c1f593-aa30-4ddc-a6e7-a98fc819afe9" />
+
+<img width="1324" height="503" alt="image" src="https://github.com/user-attachments/assets/292c067b-5810-4501-8354-f3c346832b83" />  
 
 16. 
 
