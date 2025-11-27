@@ -8,9 +8,9 @@
 Wazuh is a security platform that provides unified XDR and EDR protection for endpoints and cloud workloads. The solution is composed of a single universal agent and three central components: the Wazuh server, the Wazuh indexer, and the Wazuh dashboard.  
 
 - Install manager and agents  
+- Create custom rules for DeerStealer infostealer  
 - Invoke AtomicRedTeam MITRE ATT&CK techniques and view mapped logs  
 - Detecting and removing malware automatically using VirusTotal integration  
-- Create custom rules for DeerStealer infostealer
 
 **Solution**
 
