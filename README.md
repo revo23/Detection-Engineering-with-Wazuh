@@ -12,10 +12,6 @@ Wazuh is a security platform that provides unified XDR and EDR protection for en
 - Invoke AtomicRedTeam MITRE ATT&CK techniques and view alerts  
 - Detecting and removing malware automatically using VirusTotal integration  
 
-**Solution**
-
-
-
 **Steps**
 
 1. Download and create Ubuntu VM on VMware Workstation  
